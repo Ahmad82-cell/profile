@@ -1,0 +1,404 @@
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 150px;
+  height: 150px;
+}
+
+:root {
+  --primary: #121212;
+  --parsgraphText:#E0E0E0;
+  --MainAddress:#ffffff;
+  --primaryButton:#BB86FC;
+  --SecondaryButton:#03dac6;
+  --colorintheBytton:#000000;
+--NavBar:#0d0d0d;
+  --Card: #343a40;
+}
+span{
+  color: var(--MainAddress);
+}
+
+body {
+  background: #011614 !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--MainAddress);
+}
+
+
+
+/* start nav */
+#Navbar {
+  background: var(--NavBar) !important;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--MainAddress) !important;
+  cursor:pointer  !important;
+}
+
+.NavLink {
+  color: var(--parsgraphText) !important;
+  cursor:pointer  !important;
+}
+
+/* start nav*/
+
+
+
+/* start Home */
+.pargtext {
+  color: var(--parsgraphText);
+  font-size: 17px;
+  margin-block-start: 40px;
+  line-height: 3;
+}
+
+/* end Home */
+
+/*  start About */
+.section2 {
+  min-height: 100vh;
+  margin-bottom: 100px;
+}
+
+.logoName2 {
+  font-size: 40px;
+  color: var(--MainAddress);
+  text-align: center;
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.logoName2::before {
+  content: "";
+  position: absolute;
+  width: 100px;
+  left: 47%;
+  right: 40%;
+  height: 5px;
+  top: 75px;
+  bottom: 0;
+  background-color: var(--primaryButton);
+  border-radius: 15px;
+
+}
+
+.pargtext2 {
+  color: var(--parsgraphText);
+  font-size: 17px;
+  line-height: 3;
+  padding-bottom: 5px;
+}
+
+.carddate {
+  background: var(--Card);
+  border-radius: 15px;
+  padding: 1.5rem;
+  font-family: 'Courier New', monospace;
+  block-size: 100%;
+  overflow: hidden;
+  position: relative;
+  transition: 2s all;
+}
+
+.carddate:hover {
+  box-shadow: 0px 6px 5px 2px var(--Card);
+}
+
+.card_header {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+}
+
+.line_color {
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.code {
+  margin-block-start: 20px;
+  line-height: 2;
+}
+
+.code_data {
+  color: blue;
+  font-size: 15px;
+  margin-block-end: 10px;
+}
+
+.code_function {
+  color: red;
+}
+
+/*  end About */
+
+/* start Skills */
+.section3 {
+  min-height: 100vh;
+  margin-bottom: 100px;
+}
+
+/* end Skills */
+/* start Card */
+.section4 {
+  min-height: 100vh;
+  margin-bottom: 100px;
+}
+.button {
+  border-radius: 15px;
+  color: var(--TestPrimary);
+  background-color: var(--primaryButton);
+  font-size: 12px;
+  width: auto;
+  height: auto;
+  line-height: 1.2;
+  padding: 8px;
+  border: 1px solid var(--primaryButton);
+  color: #0f1301;
+}
+
+.languages_used {
+  width: auto;
+  height: auto;
+  border-radius: 25px;
+  background: var(--MainAddress) !important;
+  border: 1px solid var(--NavBar) !important;
+  background: #e0e0e0;
+  padding: 5px 8px 5px 8px;
+  scale: 1;
+  color: var(--colorintheBytton) !important;
+  font-size: 13px;
+  transition: ease-in 2s;
+}
+
+.languages_used:hover {
+  scale: 1.2;
+}
+
+.card_project {
+  border: 1px solid var(--MainAddress);
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  color: #333333;
+  margin-top: 40px;
+
+}
+.card_image{
+      width: 800px;
+      height: 250px;
+      object-fit: cover;
+}
+.card_image img{
+  overflow: hidden;
+}
+.languagesAll{
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.cardText {
+  padding: 10px;
+  width: 100%;
+  color: var(--parsgraphText);
+}
+
+/* end Card */
+
+/* start connect */
+.section5 {
+  min-height: 100vh;
+  margin-bottom: 100px;
+}
+
+.connectName{
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 50px;
+  color: var(--MainAddress);
+}
+.connectName::before{
+  content: "";
+  position: absolute;
+  width: 100x;
+  height: 5px;
+  top: 75px;
+  left: 50%;
+  right: 50%;
+  bottom: 0;
+  background-color: var(--primaryButton);
+  border-radius: 15px;
+}
+
+.pargtext_connect {
+  text-align: center;
+  font-size: 20px;
+  color: var(--parsgraphText);
+  margin-bottom: 50px;
+  font-weight: 400;
+  color: var(--SecondaryButton);
+
+}
+
+.Conn_card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  min-width: 100%;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  min-height: 100%;
+  margin-bottom: 20px;
+  cursor: pointer;
+  background:var(--Card);
+}
+
+.icon_image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.Conn_card:hover .icon_image {
+  transform: rotate(360deg);
+  transition: 0.6s;
+}
+.text_socil{
+  font-size: 15px;
+  font-weight: 600;
+}
+/* end connect */
+
+/* start Footer */
+.Footer {
+  background: var(--Card);
+  padding: 15px;
+  border-top: 2px solid var(--MainAddress);
+  color: var(--MainAddress);
+
+}
+/* end Footer */
+
+
+.project-img {
+  height: 250px;        /* تثبيت الارتفاع */
+  object-fit: cover;    /* قص الصور بشكل متناسق */
+  border-bottom: 2px solid #444; /* خط فاصل أنيق */
+}
+
+
+
+
+
+
+
+@media (max-width:988px) {
+
+
+  .image {
+    inline-size: 200px;
+    block-size: 200px;
+  }
+
+}
+
+@media (max-width:768px) {
+  .card_project {
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+  }
+
+  .cardText {
+    width: 100%;
+
+  }
+
+  .card_image {
+    width: 100%;
+    border-radius: 15px;
+
+  }
+
+  .card_image img {
+    border-radius: 15px;
+    border-bottom: 1px solid var(--Card);
+  }
+}
+
+@media (max-width:468px) {
+  .card_project {
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+  }
+  .languages_used{
+    font-size: 10px;
+    padding: 2.5px 4px 2.5px 4px;
+  }
+
+  .languagesAll{
+    margin-top: 15px;
+  }
+  .cardText {
+    width: 100%;
+
+  }
+
+  .card_image{
+    height: 260px;
+  }
+  .logoName {
+    font-size: 25px;
+  }
+
+  .pargtext {
+    text-align: center;
+  }
+
+  .styletext {
+    text-align: center;
+  }
+
+  .botton_Home2 {
+    gap: 10px;
+    justify-content: center;
+  }
+
+  .button_Home1 {
+    justify-content: center;
+  }
+
+  .pargtext2 {
+    text-align: center;
+  }
+
+  .footerdata {
+    font-size: 15px;
+    padding: 10px;
+  }
+}
