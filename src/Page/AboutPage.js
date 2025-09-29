@@ -5,7 +5,7 @@ const About = () => {
     return (
         <div className='section2' id='About'>
             <Container>
-                <Row className='mb-4 pt-5'>
+                <Row className='mb-4 pt-5' style={{textAlign:"center"}}>
                     <Col sm="12">
                         <h1 className='logoName2'><span style={{ color: "#BB86FC" }}>About </span>Me</h1>
                     </Col>

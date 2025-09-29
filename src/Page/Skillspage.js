@@ -6,8 +6,8 @@ import { Element } from "react-scroll";
 export default function SkillsPage() {
     return (
         <Element name="Skills">
-            <section className="container py-5">
-                <Row className='mb-4 pt-5' style={{ display: "flex", justifyContent: "center" }}>
+            <section className="container">
+                <Row className='mb-4 pt-5' style={{ display: "flex", justifyContent: "center",textAlign:"center" }}>
                     <Col lg="6" md="12" sm="12">
                         <h1 className='logoName2'><span style={{ color: "#BB86FC" }}>My </span>Skills</h1>
                     </Col>

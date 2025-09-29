@@ -15,7 +15,7 @@ const HomePage = () => {
                         initial={{ opacity: 0, y: -30 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 1 }}
-                        className="display-4 fw-bold mb-3"
+                        className="display-4 fw-bold mb-3 mt-5"
                     >
                         Hi,  I'm <span className="logoName" >Ahmad Abo Sara</span>
                     </motion.h2>

@@ -9,15 +9,16 @@ img {
 
 :root {
   --primary: #121212;
-  --parsgraphText:#E0E0E0;
-  --MainAddress:#ffffff;
-  --primaryButton:#BB86FC;
-  --SecondaryButton:#03dac6;
-  --colorintheBytton:#000000;
---NavBar:#0d0d0d;
+  --parsgraphText: #E0E0E0;
+  --MainAddress: #ffffff;
+  --primaryButton: #BB86FC;
+  --SecondaryButton: #03dac6;
+  --colorintheBytton: #000000;
+  --NavBar: #0d0d0d;
   --Card: #343a40;
 }
-span{
+
+span {
   color: var(--MainAddress);
 }
 
@@ -45,12 +46,12 @@ h6 {
   font-size: 20px;
   font-weight: 600;
   color: var(--MainAddress) !important;
-  cursor:pointer  !important;
+  cursor: pointer !important;
 }
 
 .NavLink {
   color: var(--parsgraphText) !important;
-  cursor:pointer  !important;
+  cursor: pointer !important;
 }
 
 /* start nav*/
@@ -76,20 +77,18 @@ h6 {
 .logoName2 {
   font-size: 40px;
   color: var(--MainAddress);
-  text-align: center;
   position: relative;
+  display: inline-block;
   margin-bottom: 50px;
 }
 
-.logoName2::before {
+.logoName2::after {
   content: "";
   position: absolute;
-  width: 100px;
-  left: 47%;
-  right: 40%;
+  width: 100%;
+  left: 0%;
   height: 5px;
-  top: 75px;
-  bottom: 0;
+  bottom: -10px;
   background-color: var(--primaryButton);
   border-radius: 15px;
 
@@ -158,6 +157,7 @@ h6 {
   min-height: 100vh;
   margin-bottom: 100px;
 }
+
 .button {
   border-radius: 15px;
   color: var(--TestPrimary);
@@ -199,21 +199,25 @@ h6 {
   margin-top: 40px;
 
 }
-.card_image{
-      width: 800px;
-      height: 250px;
-      object-fit: cover;
+
+.card_image {
+  width: 800px;
+  height: 250px;
+  object-fit: cover;
 }
-.card_image img{
+
+.card_image img {
   overflow: hidden;
 }
-.languagesAll{
+
+.languagesAll {
   margin-bottom: 30px;
   display: flex;
   align-items: center;
   gap: 20px;
   flex-wrap: wrap;
 }
+
 .cardText {
   padding: 10px;
   width: 100%;
@@ -228,13 +232,14 @@ h6 {
   margin-bottom: 100px;
 }
 
-.connectName{
+.connectName {
   font-size: 40px;
   text-align: center;
   margin-bottom: 50px;
   color: var(--MainAddress);
 }
-.connectName::before{
+
+.connectName::before {
   content: "";
   position: absolute;
   width: 100x;
@@ -268,7 +273,7 @@ h6 {
   min-height: 100%;
   margin-bottom: 20px;
   cursor: pointer;
-  background:var(--Card);
+  background: var(--Card);
 }
 
 .icon_image {
@@ -287,10 +292,12 @@ h6 {
   transform: rotate(360deg);
   transition: 0.6s;
 }
-.text_socil{
+
+.text_socil {
   font-size: 15px;
   font-weight: 600;
 }
+
 /* end connect */
 
 /* start Footer */
@@ -301,13 +308,17 @@ h6 {
   color: var(--MainAddress);
 
 }
+
 /* end Footer */
 
 
 .project-img {
-  height: 250px;        /* تثبيت الارتفاع */
-  object-fit: cover;    /* قص الصور بشكل متناسق */
-  border-bottom: 2px solid #444; /* خط فاصل أنيق */
+  height: 250px;
+  /* تثبيت الارتفاع */
+  object-fit: cover;
+  /* قص الصور بشكل متناسق */
+  border-bottom: 2px solid #444;
+  /* خط فاصل أنيق */
 }
 
 
@@ -318,10 +329,13 @@ h6 {
 
 @media (max-width:988px) {
 
-
   .image {
     inline-size: 200px;
     block-size: 200px;
+  }
+
+  .languages_used {
+    padding: 4px;
   }
 
 }
@@ -341,6 +355,8 @@ h6 {
   .card_image {
     width: 100%;
     border-radius: 15px;
+    border-bottom: 2px solid var(--MainAddress);
+    height: 260px;
 
   }
 
@@ -356,22 +372,27 @@ h6 {
     width: 100%;
     height: 100%;
   }
-  .languages_used{
+
+  .languages_used {
     font-size: 10px;
     padding: 2.5px 4px 2.5px 4px;
   }
 
-  .languagesAll{
+  .languagesAll {
     margin-top: 15px;
   }
+
   .cardText {
     width: 100%;
 
   }
 
-  .card_image{
+  .card_image {
     height: 260px;
+    width: 100%;
+    border-bottom: 2px solid var(--MainAddress);
   }
+
   .logoName {
     font-size: 25px;
   }

@@ -10,7 +10,7 @@ import { Element } from 'react-scroll';
 const projectsData = [
 
     {
-        id: 2,
+        id: 1,
         title: "Food-Wibsite",
         description: ` Welcome to our restaurant, where delicious flavors meet a cozy atmosphere.
                     Explore our menu, discover our story, and enjoy a memorable dining experience.`,
@@ -21,7 +21,7 @@ const projectsData = [
         tags: ["html", "css", "js"],
     },
     {
-        id: 3,
+        id: 2,
         title: "E-Commerce Website",
         description: "A fully functional e-commerce website built with React and Node.js.",
         category: "Web",
@@ -31,14 +31,14 @@ const projectsData = [
         tags: ["html", "css", "js"],
     },
     {
-        id: 4,
+        id: 3,
         title: "Profile-Wibsite",
         description: `A personal website showcasing my projects, skills,and ideas.`,
         category: "Web",
         image: profile,
         demo: "",
         github: "",
-        tags: ["html", "css", "react","Bootstrap"],
+        tags: ["html", "css", "react",],
     },
 ]
 const CardDetelisjs = projectsData.map((item) => {
@@ -51,7 +51,7 @@ const CardPage = () => {
         <Element name='Project'>
             <div className='section4'>
                 <Container>
-                    <Row className='mb-4 pt-5' style={{ display: "flex", justifyContent: "center" }}>
+                    <Row className='mb-4 pt-5' style={{ display: "flex", justifyContent: "center",textAlign:"center" }}>
                         <Col lg="6" md="12" sm="12">
                             <h1 className='logoName2'><span style={{ color: "#BB86FC" }}>My </span>Project</h1>
                         </Col>
