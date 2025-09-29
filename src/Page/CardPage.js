@@ -36,8 +36,8 @@ const projectsData = [
         description: `A personal website showcasing my projects, skills,and ideas.`,
         category: "Web",
         image: profile,
-        demo: "",
-        github: "",
+        demo: "https://github.com/Ahmad82-cell/profile",
+        github: "https://Ahmad82-cell.github.io/profile",
         tags: ["html", "css", "react",],
     },
 ]
