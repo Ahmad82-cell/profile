@@ -1,7 +1,7 @@
 import React from "react";
 import { Col } from 'react-bootstrap';
 import { BsFillBootstrapFill } from "react-icons/bs";
-import { FaCss3Alt, FaExternalLinkAlt, FaGithub, FaHtml5, FaJsSquare, FaReact } from "react-icons/fa";
+import { FaCss3Alt, FaExternalLinkAlt, FaGithub, FaHtml5, FaJsSquare, FaReact,FaLaravel, } from "react-icons/fa";
 const CardDetelis = ({ title, description, image, demo, github, tags }) => {
 
     const openGitHub = () => {
@@ -18,6 +18,8 @@ const CardDetelis = ({ title, description, image, demo, github, tags }) => {
         js:  <FaJsSquare size={40} className="text-warning" />,
         react: <FaReact size={40} className="text-info" />,
     Bootstrap:<BsFillBootstrapFill size={40} className="text-info" />,
+    laravel:<FaLaravel size={40} className="text-info" />,
+    
     };
 
     return (
